@@ -1,0 +1,453 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-125468",
+		"BookingCreated": "2022-03-31T07:51:15.3733617Z",
+		"BookingSubmitted": "2022-03-31T08:12:57.893612Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "414122",
+			"Name": "ALLIED ADVANTAGE SDN BHD (414122)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "ALLIED ADVANTAGE SDN BHD (414122)",
+				"Street": "JALAN PKNK 3/1",
+				"City": "SUNGAI PETANI",
+				"PostalCode": "8000",
+				"CountryCode": "MY",
+				"UnLocode": "MYPET",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "CCLL",
+			"Name": "Geodis",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Geodis",
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "414122",
+			"Name": "ALLIED ADVANTAGE SDN BHD (414122)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "ALLIED ADVANTAGE SDN BHD (414122)",
+				"Street": "JALAN PKNK 3/1",
+				"City": "SUNGAI PETANI",
+				"PostalCode": "8000",
+				"CountryCode": "MY",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "ALLIED ADVANTAGE SDN BHD (414122)",
+		"FactoryAddress": "JALAN PKNK 3/1, SUNGAI PETANI",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "0726",
+			"Name": "Harman(China) Tech Dandong (0726)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Harman(China) Tech Dandong (0726)",
+				"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District",
+				"City": "Dan Dong",
+				"PostalCode": "118009",
+				"CountryCode": "CN",
+				"UnLocode": "CNDDZ",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"NotifyPartyName": "Same as consignee",
+		"NotifyPartyAddress": "",
+		"NotifyPartyPhone": "",
+		"NotifyPartyEmail": "",
+		"NotifyPartyContact": "",
+		"ModeOfTransport": "Sea",
+		"LaneId": "FCL-MYPEN-CNQIN-FCA-22-1-02",
+		"PolCode": "MYPET",
+		"PolName": "Sungai Petani",
+		"PodCode": "CNTAO",
+		"PodName": "Qingdao",
+		"LoadType": "CYCY",
+		"VendorBookingEquipments": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core",
+				"Id": -1,
+				"ContainerTypeCode": "20GP",
+				"ContainerTypeName": "20GP",
+				"Count": 1
+			}
+		],
+		"CargoReadyDate": "2022-04-15T00:00:00Z",
+		"CargoReadyLocation": "Penang",
+		"IncoTermCode": "FCA",
+		"IncoTermName": "Free Carrier (named place)",
+		"IncoTermNamedPlace": "MALAYSIA",
+		"PaymentTermCode": "__60",
+		"PaymentTermName": "within 60 days Due net",
+		"MarksAndNumbers": "HARMAN DANDONG MADE IN MALAYSIA",
+		"BookingRemarks": "Consignee request to use Geodis direct vessel.",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "5500139276HMP",
+				"Identifier": "10-20220429",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "1809003502A",
+						"Description": "POLE PLATE PD37.85 OD80MM H22",
+						"Quantity": 5875.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 0.0
+						},
+						"Outer": 196,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-04-29T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0726",
+							"Name": "Harman(China) Tech Dandong (0726)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman(China) Tech Dandong (0726)",
+								"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District",
+								"City": "Dandong",
+								"PostalCode": "118009",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-04-29T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-04-29T00:00:00+00:00",
+				"ExFactoryDate": "2022-03-20T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-03-20T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "5500139274HMP",
+				"Identifier": "10-20220406",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "1509002802A",
+						"Description": "FRONT PLATE ID40.92 OD80MM T8 STAKE",
+						"Quantity": 3860.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 606.0
+						},
+						"Outer": 64,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-04-06T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0726",
+							"Name": "Harman(China) Tech Dandong (0726)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman(China) Tech Dandong (0726)",
+								"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District",
+								"City": "Dandong",
+								"PostalCode": "118009",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-04-06T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-04-06T00:00:00+00:00",
+				"ExFactoryDate": "2022-02-16T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-02-16T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500974107HMP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "1509002802A",
+						"Description": "FRONT PLATE ID40.92 OD80MM T8 STAKE STEE",
+						"Quantity": 86.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 606.0
+						},
+						"Outer": 2,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-04-20T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0726",
+							"Name": "Harman(China) Tech Dandong (0726)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman(China) Tech Dandong (0726)",
+								"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District",
+								"City": "Dandong",
+								"PostalCode": "118009",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-04-20T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-04-20T00:00:00+00:00",
+				"ExFactoryDate": "2022-03-31T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-03-31T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 79.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 112.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 129.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 3.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 46.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 2.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 40.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 43.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 83.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 90.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 67.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 5740.0,
+			"Unit": "X12_KG"
+		},
+		"TotalVolume": {
+			"Amount": 8.127,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "P2D"
+	}
+]
