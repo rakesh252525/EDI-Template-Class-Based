@@ -480,7 +480,7 @@ for bookingOrder in json_data[0]["VendorBookingOrders"]:
 
 ediData = ediData.create_edi()
 print(ediData)
-write_data_to_file(ediData,"Output2EDI.edi")
+write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Output2EDI.edi")
 
 
 print("Mapping Done !!!!!!!!!")
