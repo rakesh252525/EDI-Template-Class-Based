@@ -1,0 +1,197 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-152017",
+		"BookingCreated": "2022-12-05T09:56:35.3910999Z",
+		"BookingSubmitted": "2022-12-05T09:59:56.5390441Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "43757",
+			"Name": "ZHONG SHAN CITY RICHSOUND (43757)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "ZHONG SHAN CITY RICHSOUND (43757)",
+				"Street": "East Shagang Road No. 16,",
+				"City": "ZHONGSHAN",
+				"PostalCode": "Gangkou, Zhongshan, Guangdong",
+				"CountryCode": "CN",
+				"UnLocode": "CNZSN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ShipperPhone": "15815704656",
+		"ShipperEmail": "sm.chen@richsound.com",
+		"ShipperContact": "DAISY.CHEN",
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "CUOT",
+			"Name": "CEVA Logistics",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "43757",
+			"Name": "ZHONG SHAN CITY RICHSOUND (43757)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": "EAST SHAGANG ROAD,QUNLE INDUSTRIAL",
+				"City": "ZHONGSHAN",
+				"PostalCode": "528447",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "Zhong Shan City Richsound Electronic Industrial Ltd",
+		"FactoryAddress": "East Shagang Road No. 16,",
+		"FactoryPhone": "15815704656",
+		"FactoryEmail": "sm.chen@richsound.com",
+		"FactoryContact": "DAISY.CHEN",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "BNS_Harman_HCMI",
+			"Name": "Harman International India Pvt. Ltd. (HCMI)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Harman International India Pvt. Ltd. (HCMI)",
+				"Street": "C/o.Flyjac Logistics Pvt. Ltd., Survey Nos. 20/6, 20/7 (Part), 22 (Part), 23 & 24,Orakkadu Village (Kirudalapuram Village), Ponneri Taluk,  Sholavaram, Thiruvallur District,Chennai",
+				"Street2": "Orakkadu Village (Kirudalapuram Village), Ponneri Taluk,  Sholavaram, Thiruvallur District",
+				"City": "Chennai",
+				"PostalCode": "600067",
+				"CountryCode": "IN",
+				"UnLocode": "INMAA",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"ModeOfTransport": "Sea",
+		"LaneId": "FCL-CNSHK-INMAA-FOB-23-1-07",
+		"PolCode": "CNSHK",
+		"PolName": "Shekou Pt",
+		"PodCode": "INMAA",
+		"PodName": "Chennai (ex Madras)",
+		"LoadType": "CYCY",
+		"VendorBookingEquipments": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core",
+				"Id": -1,
+				"ContainerTypeCode": "40HC",
+				"ContainerTypeName": "40HC",
+				"Count": 1
+			}
+		],
+		"CargoReadyDate": "2023-01-01T00:00:00Z",
+		"CargoReadyLocation": "SHEKOU",
+		"Description": "SOUNDBAR/有源音箱",
+		"IncoTermCode": "FOB",
+		"IncoTermName": "Free On Board",
+		"IncoTermNamedPlace": "Shenzhen",
+		"PaymentTermCode": "__75",
+		"PaymentTermName": "within 75 days Due net",
+		"MarksAndNumbers": "JBL",
+		"BookingRemarks": "HS code：85182200\nR03 BATTERY 干电池\nplease release vessel ETD:Jan.1st,2023,thanks.",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "6500214175HCP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "JBLSB170BLKIN",
+						"Description": "2.1 SOUNDBAR WITH WIRELESS SUBWOOFER",
+						"Quantity": 1024.0,
+						"Volume": {
+							"Amount": 69.81
+						},
+						"Weight": {
+							"Amount": 9420.8
+						},
+						"Outer": 512,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 101.0
+						},
+						"PackedWidth": {
+							"Amount": 25.0
+						},
+						"PackedHeight": {
+							"Amount": 54.0
+						},
+						"Sku": "0002",
+						"IntoDcDate": "2023-01-27T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "BNS_Harman_HCMI",
+							"Name": "Harman International India Pvt. Ltd. (HCMI)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "C/o.Flyjac Logistics Pvt. Ltd., Survey Nos. 20/6, 20/7 (Part), 22 (Part), 23 & 24, Orakkadu Village (Kirudalapuram Village)Ponneri Taluk ",
+								"Street2": "Sholavaram, Thiruvallur District",
+								"City": "Chennai",
+								"PostalCode": "600067",
+								"CountryCode": "IN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-27T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-27T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-30T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-30T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [],
+		"GrossWeight": {
+			"Amount": 9420.8,
+			"Unit": "X12_50"
+		},
+		"Outers": 512,
+		"TotalVolume": {
+			"Amount": 69.81,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "OrderDetailList",
+		"MovementType": "P2P"
+	}
+]

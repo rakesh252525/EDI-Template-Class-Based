@@ -1,0 +1,186 @@
+<root1>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-152017</BookingReference>
+		<BookingCreated>2022-12-05T09:56:35.3910999Z</BookingCreated>
+		<BookingSubmitted>2022-12-05T09:59:56.5390441Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>43757</Code>
+			<Name>ZHONG SHAN CITY RICHSOUND (43757)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>ZHONG SHAN CITY RICHSOUND (43757)</Name>
+				<Street>East Shagang Road No. 16,</Street>
+				<City>ZHONGSHAN</City>
+				<PostalCode>Gangkou, Zhongshan, Guangdong</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNZSN</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ShipperPhone>15815704656</ShipperPhone>
+		<ShipperEmail>sm.chen@richsound.com</ShipperEmail>
+		<ShipperContact>DAISY.CHEN</ShipperContact>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>CUOT</Code>
+			<Name>CEVA Logistics</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>43757</Code>
+			<Name>ZHONG SHAN CITY RICHSOUND (43757)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>EAST SHAGANG ROAD,QUNLE INDUSTRIAL</Street>
+				<City>ZHONGSHAN</City>
+				<PostalCode>528447</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>Zhong Shan City Richsound Electronic Industrial Ltd</FactoryName>
+		<FactoryAddress>East Shagang Road No. 16,</FactoryAddress>
+		<FactoryPhone>15815704656</FactoryPhone>
+		<FactoryEmail>sm.chen@richsound.com</FactoryEmail>
+		<FactoryContact>DAISY.CHEN</FactoryContact>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>BNS_Harman_HCMI</Code>
+			<Name>Harman International India Pvt. Ltd. (HCMI)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Harman International India Pvt. Ltd. (HCMI)</Name>
+				<Street>C/o.Flyjac Logistics Pvt. Ltd., Survey Nos. 20/6, 20/7 (Part), 22 (Part), 23 &amp; 24,Orakkadu Village (Kirudalapuram Village), Ponneri Taluk,  Sholavaram, Thiruvallur District,Chennai</Street>
+				<Street2>Orakkadu Village (Kirudalapuram Village), Ponneri Taluk,  Sholavaram, Thiruvallur District</Street2>
+				<City>Chennai</City>
+				<PostalCode>600067</PostalCode>
+				<CountryCode>IN</CountryCode>
+				<UnLocode>INMAA</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<ModeOfTransport>Sea</ModeOfTransport>
+		<LaneId>FCL-CNSHK-INMAA-FOB-23-1-07</LaneId>
+		<PolCode>CNSHK</PolCode>
+		<PolName>Shekou Pt</PolName>
+		<PodCode>INMAA</PodCode>
+		<PodName>Chennai (ex Madras)</PodName>
+		<LoadType>CYCY</LoadType>
+		<VendorBookingEquipments>
+			<type>Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core</type>
+			<Id>-1</Id>
+			<ContainerTypeCode>40HC</ContainerTypeCode>
+			<ContainerTypeName>40HC</ContainerTypeName>
+			<Count>1</Count>
+		</VendorBookingEquipments>
+		<CargoReadyDate>2023-01-01T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>SHEKOU</CargoReadyLocation>
+		<Description>SOUNDBAR/有源音箱</Description>
+		<IncoTermCode>FOB</IncoTermCode>
+		<IncoTermName>Free On Board</IncoTermName>
+		<IncoTermNamedPlace>Shenzhen</IncoTermNamedPlace>
+		<PaymentTermCode>__75</PaymentTermCode>
+		<PaymentTermName>within 75 days Due net</PaymentTermName>
+		<MarksAndNumbers>JBL</MarksAndNumbers>
+		<BookingRemarks>HS code：85182200
+R03 BATTERY 干电池
+please release vessel ETD:Jan.1st,2023,thanks.</BookingRemarks>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>6500214175HCP</OrderNumber>
+			<Identifier>10-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>JBLSB170BLKIN</ItemCode>
+				<Description>2.1 SOUNDBAR WITH WIRELESS SUBWOOFER</Description>
+				<Quantity>1024.0</Quantity>
+				<Volume>
+					<Amount>69.81</Amount>
+				</Volume>
+				<Weight>
+					<Amount>9420.8</Amount>
+				</Weight>
+				<Outer>512</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>101.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>25.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>54.0</Amount>
+				</PackedHeight>
+				<Sku>0002</Sku>
+				<IntoDcDate>2023-01-27T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>BNS_Harman_HCMI</Code>
+					<Name>Harman International India Pvt. Ltd. (HCMI)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>C/o.Flyjac Logistics Pvt. Ltd., Survey Nos. 20/6, 20/7 (Part), 22 (Part), 23 &amp; 24, Orakkadu Village (Kirudalapuram Village)Ponneri Taluk </Street>
+						<Street2>Sholavaram, Thiruvallur District</Street2>
+						<City>Chennai</City>
+						<PostalCode>600067</PostalCode>
+						<CountryCode>IN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-01-27T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-01-27T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-30T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-30T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<GrossWeight>
+			<Amount>9420.8</Amount>
+			<Unit>X12_50</Unit>
+		</GrossWeight>
+		<Outers>512</Outers>
+		<TotalVolume>
+			<Amount>69.81</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>OrderDetailList</TotalVolumeType>
+		<MovementType>P2P</MovementType>
+	</element>
+</root1>

@@ -1,0 +1,296 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-66877",
+		"BookingCreated": "2021-06-09T03:16:38.4713758Z",
+		"BookingSubmitted": "2021-06-09T03:35:24.5819457Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "436015",
+			"Name": "Tymphany Hk Limited (436015)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Tymphany Hk Limited (436015)",
+				"Street": "Tymphany Ind Area Xin Lian Village, Huizhou",
+				"City": "Huizhou",
+				"PostalCode": "516223",
+				"CountryCode": "CN",
+				"UnLocode": "CNHUI",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ShipperEmail": "shirmere.xie@tymphany.com",
+		"ShipperContact": "Shirmere",
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "DSV",
+			"Name": "DSV Global Transport & Logistics",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "DSV Global Transport & Logistics",
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "436015",
+			"Name": "TYMPHANY HK LIMITED (436015)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "TYMPHANY HK LIMITED (436015)",
+				"Street": "ROOM 1307-8,DOMIMION CENTRE , 43-59 ,QUEEN'S ROAD EAST",
+				"City": "WANCHAI",
+				"CountryCode": "HK",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "TYMPHANY HK LIMITED (436015)",
+		"FactoryAddress": "ROOM 1307-8,DOMIMION CENTRE , 43-59 ,QUEEN'S ROAD EAST, WANCHAI",
+		"FactoryEmail": "shirmere.xie@tymphany.com",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "7301",
+			"Name": "Denmark Distribution Center (7301)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Denmark Distribution Center (7301)",
+				"Street": "Nokiavej 30",
+				"City": "Horsens",
+				"PostalCode": "8700",
+				"CountryCode": "DK",
+				"UnLocode": "DKHOR",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"ConsigneeEmail": "Jet.Zhao@harman.com",
+		"ConsigneeContact": "Jet",
+		"NotifyPartyName": "Same as Consignee",
+		"ModeOfTransport": "Rail",
+		"LaneId": "SQ2950",
+		"PolCode": "CNCQI",
+		"PolName": "Chongqing",
+		"PodCode": "DKHOR",
+		"PodName": "Horsens",
+		"LoadType": "RAIL",
+		"VendorBookingEquipments": [],
+		"CargoReadyDate": "2021-06-22T00:00:00Z",
+		"CargoReadyLocation": "HUIZHOU.GUANGDONG",
+		"Description": "SPEAKER BOX( NO BATTERIES)",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"PaymentTermCode": "__60",
+		"PaymentTermName": "within 60 days Due net",
+		"MarksAndNumbers": "1，JBL- JBL-PRX ONE-EK /  CBT 1000-WH REF.# 32444  DK-4\n2，CFS/CFS",
+		"BookingRemarks": "huizhou",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500926529PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "JBL-PRX ONE-EK",
+						"Description": "JBL PRX ONE-EK",
+						"Quantity": 50.0,
+						"Volume": {
+							"Amount": 15.79
+						},
+						"Weight": {
+							"Amount": 1709.9
+						},
+						"Outer": 50,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 66.0
+						},
+						"PackedWidth": {
+							"Amount": 55.0
+						},
+						"PackedHeight": {
+							"Amount": 87.0
+						},
+						"IntoDcDate": "2022-01-24T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Denmark Distribution Center (7301)",
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2021-07-08T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-01-24T00:00:00+00:00",
+				"ExFactoryDate": "2021-05-13T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2021-11-29T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500922759PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "CBT 1000-WH",
+						"Description": "S/M, CBT 1000-WH",
+						"Quantity": 10.0,
+						"Volume": {
+							"Amount": 2.56
+						},
+						"Weight": {
+							"Amount": 408.1
+						},
+						"Outer": 10,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 128.0
+						},
+						"PackedWidth": {
+							"Amount": 50.0
+						},
+						"PackedHeight": {
+							"Amount": 40.0
+						},
+						"IntoDcDate": "2021-08-05T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Denmark Distribution Center (7301)",
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2021-06-04T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2021-08-05T00:00:00+00:00",
+				"ExFactoryDate": "2021-04-09T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2021-06-10T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 115.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 70.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 187.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 12.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 115.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 70.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 110.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 132.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 207.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 2118.0,
+			"Unit": "Unknown"
+		},
+		"TotalVolume": {
+			"Amount": 21.6821,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

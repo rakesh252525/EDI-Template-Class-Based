@@ -1,0 +1,256 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-103765",
+		"BookingCreated": "2021-11-16T05:56:12.4241684Z",
+		"BookingSubmitted": "2021-11-16T06:03:12.8938376Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "438099",
+			"Name": "KWANASIA ELECTRONICS (438099)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "KWANASIA ELECTRONICS (438099)",
+				"Street": "10C,EDF. ASSOCIACAO INDUSTRIAL DE MACAU,NO.32-36",
+				"City": "MACAU",
+				"PostalCode": "RUA DO COMANDANTE MATA E OLIVEIRA,",
+				"CountryCode": "CN",
+				"UnLocode": "MOMFM",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "DSVF",
+			"Name": "DSV Global Transport & Logistics",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "DSV Global Transport & Logistics",
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "438099",
+			"Name": "KWANASIA ELECTRONICS (438099)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "KWANASIA ELECTRONICS",
+				"Street": "10C 10C,EDF. ASSOCIACAO INDUSTRIAL",
+				"City": "MACAU",
+				"PostalCode": "000000",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "KWANASIA ELECTRONICS (438099)",
+		"FactoryAddress": "10C,EDF. ASSOCIACAO INDUSTRIAL DE MACAU,NO.32-36",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "7301",
+			"Name": "Denmark Distribution Center (7301)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Denmark Distribution Center (7301)",
+				"Street": "Nokiavej 30",
+				"City": "Horsens",
+				"PostalCode": "8700",
+				"CountryCode": "DK",
+				"UnLocode": "DKHOR",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"NotifyPartyName": "Denmark Distribution Center (7301)",
+		"NotifyPartyAddress": "Nokiavej 30",
+		"NotifyPartyPhone": "",
+		"NotifyPartyContact": "",
+		"ModeOfTransport": "Rail",
+		"LaneId": "SQ5174",
+		"PolCode": "CNSNZ",
+		"PolName": "Shenzhen",
+		"PodCode": "PLSAW",
+		"PodName": "Slawkow",
+		"LoadType": "RAIL",
+		"VendorBookingEquipments": [],
+		"CargoReadyDate": "2021-11-29T00:00:00Z",
+		"CargoReadyLocation": "DongGuan",
+		"Description": "DIGITAL MIXER",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"PaymentTermCode": "__90",
+		"PaymentTermName": "within 90 days Due net",
+		"MarksAndNumbers": "SOUNDCRAFT",
+		"BookingRemarks": "EXW DongGuan",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500940482PEP",
+				"Identifier": "20-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "5056221",
+						"Description": "Ui 16 Digital Mixer EU",
+						"Quantity": 692.0,
+						"Volume": {
+							"Amount": 20.13
+						},
+						"Weight": {
+							"Amount": 3653.76
+						},
+						"Outer": 173,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 58.5
+						},
+						"PackedWidth": {
+							"Amount": 54.5
+						},
+						"PackedHeight": {
+							"Amount": 36.5
+						},
+						"IntoDcDate": "2022-04-01T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Denmark Distribution Center (7301)",
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-04-01T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-04-01T00:00:00+00:00",
+				"ExFactoryDate": "2022-01-14T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-01-14T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500927973PEP",
+				"Identifier": "20-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "5056221",
+						"Description": "Ui 16 Digital Mixer EU",
+						"Quantity": 100.0,
+						"Volume": {
+							"Amount": 2.91
+						},
+						"Weight": {
+							"Amount": 528.0
+						},
+						"Outer": 25,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 58.5
+						},
+						"PackedWidth": {
+							"Amount": 54.5
+						},
+						"PackedHeight": {
+							"Amount": 36.5
+						},
+						"IntoDcDate": "2022-04-01T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Denmark Distribution Center (7301)",
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-04-01T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-04-01T00:00:00+00:00",
+				"ExFactoryDate": "2022-01-14T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-01-14T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 58.5,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 54.5,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 36.5,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 198.0,
+				"PackType": "Carton"
+			}
+		],
+		"GrossWeight": {
+			"Amount": 4181.76,
+			"Unit": "X12_KG"
+		},
+		"TotalVolume": {
+			"Amount": 23.0415,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

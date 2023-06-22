@@ -1,9 +1,8 @@
-
 import json
-
 from CodeList import pack_type_codeList
 from ifcsumTemplate import *
 from datetime import datetime
+from reusable_function import *
 
 
 
@@ -28,7 +27,7 @@ def split_string(string, chunk_length):
 
 
 # Example usage
-file_path = 'C:\\Users\\rakro\\Desktop\\EDI Parsing using Python\\IFCSUM_Template_Creation\\Input\\VEN-125468_IFCSUM.json'  # Replace with the path to your JSON file
+file_path = 'C:\\Users\\rakro\Desktop\\EDI Template Class Based\\Input\\XML_IFCSUM Map files\\Sea\\VEN-152079\\VEN-152079.json'  # Replace with the path to your JSON file
 json_data = read_json_file(file_path)
 
 
@@ -40,19 +39,22 @@ ediData = EDIData("IFCSUM","D","99B","BNS00019","GEODIST")
 
 #----------------------------------------------------------------Mapping Logic Starts Here----------------------------------------------------------------
 
+
+
+
 bgm = BGM()
 bgm.document_name_code_01_01="335"
 bgm.document_number_02_01=json_data[0]["BookingReference"]
 bgm.message_function_code_03="9"
+
 ediData.add_segment(bgm)
 
 dtm= DTM()
 dtm.dateTime_code_qualifier_01_01="137"
-dtm.dateTime_value_01_02=modifyDateTimeFormat(json_data[0]["BookingSubmitted"],"%Y-%m-%dT%H:%M:%S.%fZ","%Y%m%d%H%M%S")
+dateTimeData=json_data[0]["BookingSubmitted"].split(".")[0]
+dtm.dateTime_value_01_02=modifyDateTimeFormat(dateTimeData,find_datetime_format(dateTimeData),"%Y%m%d%H%M%S")
 dtm.dateTime_Format_01_03="304"
 ediData.add_segment(dtm)
-
-
 
 aboutGoods="12" # This data is not there in JSON
 gds= GDS()
@@ -332,17 +334,22 @@ ediData.add_segment(nad2)
 
 # # Looping for Multiple Orders and Items in it.
 gidCounter=0
+packTYpeCode=""
 for bookingOrder in json_data[0]["VendorBookingOrders"]:
     for bookingItem in bookingOrder["VendorBookingItems"]:
         print(bookingItem["Description"])
         gidCounter=gidCounter+1
-        packTYpeCode=pack_type_codeList[bookingItem["PackType"]]
-        # GID Mapping
+                # GID Mapping
         gid1=GID()
         gid1.goods_item_number_01=gidCounter
         gid1.number_of_packages_02_01=str(int(bookingItem["Quantity"]))
-        gid1.pack_type_description_code_02_02=packTYpeCode
-        gid1.type_of_package_02_05=packTYpeCode
+        if "PackType" in bookingItem:
+             packTYpeCode=pack_type_codeList[bookingItem["PackType"]]
+             gid1.pack_type_description_code_02_02=packTYpeCode
+             gid1.type_of_package_02_05=packTYpeCode
+        else:
+            gid1.pack_type_description_code_02_02="UN"
+            gid1.type_of_package_02_05="UN"
         ediData.add_segment(gid1)
         # LOC 9 mapping
         loc2=LOC()
@@ -469,18 +476,18 @@ for bookingOrder in json_data[0]["VendorBookingOrders"]:
         ediData.add_segment(rff2)
         #PCI Mapping
         pci1=PCI()
-        pci1.shipping_marks_02_01=json_data[0]["MarksAndNumbers"]
+        pci1.shipping_marks_02_01=repr(json_data[0]["MarksAndNumbers"])[1:-1] # converting string data to raw string.
         ediData.add_segment(pci1)
 
 
 
-
+print(repr(json_data[0]["MarksAndNumbers"]))
 
 # #----------------------------------------------------------------Mapping Logic End----------------------------------------------------------------  
 
 ediData = ediData.create_edi()
-print(ediData)
-write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Output2EDI.edi")
+# print(ediData)
+write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Output3EDI.edi")
 
 
 print("Mapping Done !!!!!!!!!")

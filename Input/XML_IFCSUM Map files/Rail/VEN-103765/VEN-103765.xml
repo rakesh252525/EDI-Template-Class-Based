@@ -1,0 +1,240 @@
+<root>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-103765</BookingReference>
+		<BookingCreated>2021-11-16T05:56:12.4241684Z</BookingCreated>
+		<BookingSubmitted>2021-11-16T06:03:12.8938376Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>438099</Code>
+			<Name>KWANASIA ELECTRONICS (438099)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>KWANASIA ELECTRONICS (438099)</Name>
+				<Street>10C,EDF. ASSOCIACAO INDUSTRIAL DE MACAU,NO.32-36</Street>
+				<City>MACAU</City>
+				<PostalCode>RUA DO COMANDANTE MATA E OLIVEIRA,</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>MOMFM</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>DSVF</Code>
+			<Name>DSV Global Transport &amp; Logistics</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>DSV Global Transport &amp; Logistics</Name>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>438099</Code>
+			<Name>KWANASIA ELECTRONICS (438099)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>KWANASIA ELECTRONICS</Name>
+				<Street>10C 10C,EDF. ASSOCIACAO INDUSTRIAL</Street>
+				<City>MACAU</City>
+				<PostalCode>000000</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>KWANASIA ELECTRONICS (438099)</FactoryName>
+		<FactoryAddress>10C,EDF. ASSOCIACAO INDUSTRIAL DE MACAU,NO.32-36</FactoryAddress>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>7301</Code>
+			<Name>Denmark Distribution Center (7301)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Denmark Distribution Center (7301)</Name>
+				<Street>Nokiavej 30</Street>
+				<City>Horsens</City>
+				<PostalCode>8700</PostalCode>
+				<CountryCode>DK</CountryCode>
+				<UnLocode>DKHOR</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<NotifyPartyName>Denmark Distribution Center (7301)</NotifyPartyName>
+		<NotifyPartyAddress>Nokiavej 30</NotifyPartyAddress>
+		<NotifyPartyPhone/>
+		<NotifyPartyContact/>
+		<ModeOfTransport>Rail</ModeOfTransport>
+		<LaneId>SQ5174</LaneId>
+		<PolCode>CNSNZ</PolCode>
+		<PolName>Shenzhen</PolName>
+		<PodCode>PLSAW</PodCode>
+		<PodName>Slawkow</PodName>
+		<LoadType>RAIL</LoadType>
+		<CargoReadyDate>2021-11-29T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>DongGuan</CargoReadyLocation>
+		<Description>DIGITAL MIXER</Description>
+		<IncoTermCode>EXW</IncoTermCode>
+		<IncoTermName>Ex Works (named place)</IncoTermName>
+		<PaymentTermCode>__90</PaymentTermCode>
+		<PaymentTermName>within 90 days Due net</PaymentTermName>
+		<MarksAndNumbers>SOUNDCRAFT</MarksAndNumbers>
+		<BookingRemarks>EXW DongGuan</BookingRemarks>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500940482PEP</OrderNumber>
+			<Identifier>20-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>5056221</ItemCode>
+				<Description>Ui 16 Digital Mixer EU</Description>
+				<Quantity>692.0</Quantity>
+				<Volume>
+					<Amount>20.13</Amount>
+				</Volume>
+				<Weight>
+					<Amount>3653.76</Amount>
+				</Weight>
+				<Outer>173</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.5</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>54.5</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>36.5</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-04-01T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7301</Code>
+					<Name>Denmark Distribution Center (7301)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Denmark Distribution Center (7301)</Name>
+						<Street>Nokiavej 30</Street>
+						<City>Horsens</City>
+						<PostalCode>8700</PostalCode>
+						<CountryCode>DK</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-04-01T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-04-01T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-01-14T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-01-14T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500927973PEP</OrderNumber>
+			<Identifier>20-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>5056221</ItemCode>
+				<Description>Ui 16 Digital Mixer EU</Description>
+				<Quantity>100.0</Quantity>
+				<Volume>
+					<Amount>2.91</Amount>
+				</Volume>
+				<Weight>
+					<Amount>528.0</Amount>
+				</Weight>
+				<Outer>25</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.5</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>54.5</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>36.5</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-04-01T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7301</Code>
+					<Name>Denmark Distribution Center (7301)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Denmark Distribution Center (7301)</Name>
+						<Street>Nokiavej 30</Street>
+						<City>Horsens</City>
+						<PostalCode>8700</PostalCode>
+						<CountryCode>DK</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-04-01T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-04-01T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-01-14T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-01-14T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>58.5</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>54.5</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>36.5</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>198.0</Quantity>
+			<PackType>Carton</PackType>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>4181.76</Amount>
+			<Unit>X12_KG</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>23.0415</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>D2D</MovementType>
+	</element>
+</root>

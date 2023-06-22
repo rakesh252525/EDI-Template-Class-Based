@@ -1,0 +1,658 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-151084",
+		"BookingCreated": "2022-11-25T13:52:40.3769526Z",
+		"BookingSubmitted": "2022-11-25T13:54:59.2363732Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "7301",
+			"Name": "Denmark Distribution Center (7301)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Denmark Distribution Center (7301)",
+				"Street": "Nokiavej 30,Horsens",
+				"City": "Horsens",
+				"PostalCode": "8700",
+				"CountryCode": "DK",
+				"UnLocode": "DKHOR",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "DSVF",
+			"Name": "DSV Global Transport & Logistics",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "7301",
+			"Name": "Denmark Distribution Center (7301)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": "Nokiavej 30",
+				"City": "Horsens",
+				"PostalCode": "8700",
+				"CountryCode": "DK",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "Denmark Distribution Center (7301)",
+		"FactoryAddress": "Nokiavej 30, Horsens",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "7306",
+			"Name": "Shanghai Pro Distribution Center (7306) c/o APL Logistics",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Shanghai Pro Distribution Center (7306) c/o APL Logistics",
+				"Street": "No. 6305 Liu Xiang Road, Jiading District Shanghai,Shanghai",
+				"City": "Shanghai",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"UnLocode": "CNSHA",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"NotifyPartyName": "",
+		"NotifyPartyAddress": "",
+		"ModeOfTransport": "Air",
+		"LaneId": "HWA-DKHOR-CNPVG-EXW-E-23-1-01",
+		"PolCode": "DKBLL",
+		"PolName": "Billund",
+		"PodCode": "CNPVG",
+		"PodName": "Shanghai Pudong International Apt",
+		"LoadType": "AIR",
+		"VendorBookingEquipments": [],
+		"CargoReadyDate": "2022-11-29T00:00:00Z",
+		"CargoReadyLocation": "Horsens",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"IncoTermNamedPlace": "EXW",
+		"PaymentTermCode": "__",
+		"PaymentTermName": "N/A",
+		"MarksAndNumbers": "ref: JBLPR-93188",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501001649PEP",
+				"Identifier": "10-0002",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3381H00100",
+						"Description": "DHT800 BD1",
+						"Quantity": 20.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 10.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-12-20T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-20T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-20T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-15T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-15T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501001649PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3381H00100",
+						"Description": "DHT800 BD1",
+						"Quantity": 7.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 4.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-12-20T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-20T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-20T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-15T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-15T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500906624PEP",
+				"Identifier": "40-0014",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "IVX-587040/230",
+						"Description": "JBL Intellivox-DSX180, Amp@Bottom",
+						"Quantity": 3.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 620.0
+						},
+						"PackType": "Boxed",
+						"PackedLength": {
+							"Amount": 222.0
+						},
+						"PackedWidth": {
+							"Amount": 61.0
+						},
+						"PackedHeight": {
+							"Amount": 30.0
+						},
+						"IntoDcDate": "2023-01-10T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-10T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-10T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-06T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501001297PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3165H00150",
+						"Description": "PAE M - 3pinXLR",
+						"Quantity": 70.0,
+						"Volume": {
+							"Amount": 0.06
+						},
+						"Weight": {
+							"Amount": 6.77
+						},
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 47.0
+						},
+						"PackedWidth": {
+							"Amount": 41.0
+						},
+						"PackedHeight": {
+							"Amount": 31.0
+						},
+						"IntoDcDate": "2023-01-10T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-10T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-10T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-06T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500931841PEP",
+				"Identifier": "10-0097",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "2221X00040",
+						"Description": "C12VR RECORDING MICROPHONE",
+						"Quantity": 9.0,
+						"Volume": {
+							"Amount": 0.49
+						},
+						"Weight": {
+							"Amount": 63.0
+						},
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 49.0
+						},
+						"PackedWidth": {
+							"Amount": 41.0
+						},
+						"PackedHeight": {
+							"Amount": 27.0
+						},
+						"IntoDcDate": "2022-12-20T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-20T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-20T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-15T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-15T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500927323PEP",
+				"Identifier": "70-0041",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "2221X00040",
+						"Description": "C12VR RECORDING MICROPHONE",
+						"Quantity": 9.0,
+						"Volume": {
+							"Amount": 0.49
+						},
+						"Weight": {
+							"Amount": 63.0
+						},
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 49.0
+						},
+						"PackedWidth": {
+							"Amount": 41.0
+						},
+						"PackedHeight": {
+							"Amount": 27.0
+						},
+						"IntoDcDate": "2022-12-20T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-20T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-20T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-15T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-15T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500906624PEP",
+				"Identifier": "30-0008",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "IVX-587001/230",
+						"Description": "JBL Intellivox-DS115, Amp@Top",
+						"Quantity": 10.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 0.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2023-01-10T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-10T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-10T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-06T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500964136PEP",
+				"Identifier": "30-0008",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "IVX-587040/230",
+						"Description": "JBL Intellivox-DSX180, Amp@Bottom",
+						"Quantity": 1.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 620.0
+						},
+						"PackType": "Boxed",
+						"PackedLength": {
+							"Amount": 222.0
+						},
+						"PackedWidth": {
+							"Amount": 61.0
+						},
+						"PackedHeight": {
+							"Amount": 30.0
+						},
+						"IntoDcDate": "2023-01-10T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-10T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-10T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-06T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500927489PEP",
+				"Identifier": "10-0025",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "IVX-587001/230",
+						"Description": "JBL Intellivox-DS115, Amp@Top",
+						"Quantity": 10.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 0.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2023-02-10T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7306",
+							"Name": "Shanghai Distribution Center (7306)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Room 2703 Wisdom Plaza 488 Wuning South Road",
+								"City": "Shanghai",
+								"PostalCode": "200042",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-10T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-10T00:00:00+00:00",
+				"ExFactoryDate": "2023-01-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2023-01-06T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 120.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 80.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 123.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 205.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 80.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 88.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 120.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 80.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 96.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 125.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 75.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 119.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 1.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 610.0,
+			"Unit": "X12_GT"
+		},
+		"TotalVolume": {
+			"Amount": 4.6612,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

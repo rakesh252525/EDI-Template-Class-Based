@@ -1,0 +1,205 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-151756",
+		"BookingCreated": "2022-12-02T00:10:58.4074647Z",
+		"BookingSubmitted": "2022-12-02T01:06:27.5462618Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "0250",
+			"Name": "Harman Juarez / El Paso (0250)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Harman Juarez / El Paso (0250)",
+				"Street": "11970 Pellicano,Suite 200,El Paso,TX",
+				"Street2": "Suite 200",
+				"City": "El Paso",
+				"PostalCode": "79936",
+				"CountryCode": "US",
+				"UnLocode": "USELP",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "BDPA",
+			"Name": "BDP International",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "0250",
+			"Name": "Harman Juarez / El Paso (0250)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": "12150 Rojas Drive Suite B",
+				"City": "El Paso, TX",
+				"PostalCode": "79936",
+				"CountryCode": "US",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "Harman Juarez / El Paso (0250)",
+		"FactoryAddress": "12150 Rojas Drive Suite B, El Paso, TX",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "0726",
+			"Name": "Harman(China) Tech Dandong (0726)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Harman(China) Tech Dandong (0726)",
+				"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District,Dan Dong",
+				"City": "Dan Dong",
+				"PostalCode": "118009",
+				"CountryCode": "CN",
+				"UnLocode": "CNDOZ",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"NotifyPartyName": "ROBERTO SANDOVAL",
+		"NotifyPartyEmail": "Roberto.Sandoval@harman.com",
+		"NotifyPartyContact": "ROBERTO SANDOVAL",
+		"ModeOfTransport": "Sea",
+		"LaneId": "FCL-USELP-CNDAL-EXW-23-1-02",
+		"PolCode": "USLAX",
+		"PolName": "Los Angeles",
+		"PodCode": "CNDAL",
+		"PodName": "Dalian",
+		"LoadType": "CYCY",
+		"VendorBookingEquipments": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core",
+				"Id": -1,
+				"ContainerTypeCode": "40HC",
+				"ContainerTypeName": "40HC",
+				"Count": 1
+			}
+		],
+		"CargoReadyDate": "2022-12-14T00:00:00Z",
+		"CargoReadyLocation": "11970 Pellicano Suite 200 El Paso TX 79936",
+		"Description": "AUTOSPEAKERS MATERIAL MAGNETIZED",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"IncoTermNamedPlace": "Exworks",
+		"PaymentTermCode": "__",
+		"PaymentTermName": "N/A",
+		"MarksAndNumbers": "DO #265061498",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "0009927141HMP",
+				"Identifier": "10-20230116",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "9923024201A",
+						"Description": "SPKR 80MM IP R/L MDRG 010B TOY RTND",
+						"Quantity": 15816.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 1706.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2023-01-16T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0726",
+							"Name": "Harman(China) Tech Dandong (0726)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District",
+								"City": "Dandong",
+								"PostalCode": "118009",
+								"CountryCode": "CN",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-16T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-16T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-13T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-13T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 121.92,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 121.92,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 121.92,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 19.0
+			}
+		],
+		"GrossWeight": {
+			"Amount": 1706.0,
+			"Unit": "X12_50"
+		},
+		"TotalVolume": {
+			"Amount": 34.4333,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2P"
+	}
+]

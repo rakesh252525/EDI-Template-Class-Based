@@ -1,0 +1,191 @@
+<root1>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-151756</BookingReference>
+		<BookingCreated>2022-12-02T00:10:58.4074647Z</BookingCreated>
+		<BookingSubmitted>2022-12-02T01:06:27.5462618Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>0250</Code>
+			<Name>Harman Juarez / El Paso (0250)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Harman Juarez / El Paso (0250)</Name>
+				<Street>11970 Pellicano,Suite 200,El Paso,TX</Street>
+				<Street2>Suite 200</Street2>
+				<City>El Paso</City>
+				<PostalCode>79936</PostalCode>
+				<CountryCode>US</CountryCode>
+				<UnLocode>USELP</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>BDPA</Code>
+			<Name>BDP International</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>0250</Code>
+			<Name>Harman Juarez / El Paso (0250)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>12150 Rojas Drive Suite B</Street>
+				<City>El Paso, TX</City>
+				<PostalCode>79936</PostalCode>
+				<CountryCode>US</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>Harman Juarez / El Paso (0250)</FactoryName>
+		<FactoryAddress>12150 Rojas Drive Suite B, El Paso, TX</FactoryAddress>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>0726</Code>
+			<Name>Harman(China) Tech Dandong (0726)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Harman(China) Tech Dandong (0726)</Name>
+				<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District,Dan Dong</Street>
+				<City>Dan Dong</City>
+				<PostalCode>118009</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNDOZ</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<NotifyPartyName>ROBERTO SANDOVAL</NotifyPartyName>
+		<NotifyPartyEmail>Roberto.Sandoval@harman.com</NotifyPartyEmail>
+		<NotifyPartyContact>ROBERTO SANDOVAL</NotifyPartyContact>
+		<ModeOfTransport>Sea</ModeOfTransport>
+		<LaneId>FCL-USELP-CNDAL-EXW-23-1-02</LaneId>
+		<PolCode>USLAX</PolCode>
+		<PolName>Los Angeles</PolName>
+		<PodCode>CNDAL</PodCode>
+		<PodName>Dalian</PodName>
+		<LoadType>CYCY</LoadType>
+		<VendorBookingEquipments>
+			<type>Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core</type>
+			<Id>-1</Id>
+			<ContainerTypeCode>40HC</ContainerTypeCode>
+			<ContainerTypeName>40HC</ContainerTypeName>
+			<Count>1</Count>
+		</VendorBookingEquipments>
+		<CargoReadyDate>2022-12-14T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>11970 Pellicano Suite 200 El Paso TX 79936</CargoReadyLocation>
+		<Description>AUTOSPEAKERS MATERIAL MAGNETIZED</Description>
+		<IncoTermCode>EXW</IncoTermCode>
+		<IncoTermName>Ex Works (named place)</IncoTermName>
+		<IncoTermNamedPlace>Exworks</IncoTermNamedPlace>
+		<PaymentTermCode>__</PaymentTermCode>
+		<PaymentTermName>N/A</PaymentTermName>
+		<MarksAndNumbers>DO #265061498</MarksAndNumbers>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>0009927141HMP</OrderNumber>
+			<Identifier>10-20230116</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>9923024201A</ItemCode>
+				<Description>SPKR 80MM IP R/L MDRG 010B TOY RTND</Description>
+				<Quantity>15816.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>1706.0</Amount>
+				</Weight>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-01-16T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-01-16T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-01-16T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-13T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-13T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>121.92</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>121.92</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>121.92</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>19.0</Quantity>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>1706.0</Amount>
+			<Unit>X12_50</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>34.4333</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>D2P</MovementType>
+	</element>
+</root1>

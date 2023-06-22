@@ -1,0 +1,464 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-150071",
+		"BookingCreated": "2022-11-16T05:31:16.359863Z",
+		"BookingSubmitted": "2022-11-16T05:37:41.9892807Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "452850",
+			"Name": "FISCHER ADVANCED TECHNOLOGY (452850)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "FISCHER ADVANCED TECHNOLOGY (452850)",
+				"Street": "NO.79 HONGXI ROAD,SUZHOU",
+				"City": "SUZHOU",
+				"PostalCode": "215151",
+				"CountryCode": "CN",
+				"UnLocode": "CNSUZ",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ShipperPhone": "86 512 67998228",
+		"ShipperEmail": "kelly.yang@pearles.com",
+		"ShipperContact": "Kelly Yang",
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "CCLL",
+			"Name": "Geodis",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Geodis",
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "452850",
+			"Name": "FISCHER ADVANCED TECHNOLOGY (452850)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "FISCHER ADVANCED TECHNOLOGY (452850)",
+				"Street": "NO.79 HONGXI ROAD",
+				"City": "SUZHOU",
+				"PostalCode": "215151",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "0530",
+			"Name": " Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": " Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+				"Street": "Address: 50 Alps Avenue, Freightmark Logistics, Level 2 #02-06",
+				"City": "Singapore",
+				"PostalCode": "498782",
+				"CountryCode": "SG",
+				"UnLocode": "SGCHG",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"ConsigneePhone": "+65 8128 0114",
+		"ConsigneeEmail": "sd.harmansg@arvato-scs.com",
+		"ConsigneeContact": "Arvato_Harman team",
+		"ModeOfTransport": "Sea",
+		"LaneId": "SPOT QUOTE SQ17619",
+		"PolCode": "CNSGH",
+		"PolName": "Shanghai",
+		"PodCode": "SGSIN",
+		"PodName": "Singapore",
+		"LoadType": "CFSCFS",
+		"VendorBookingEquipments": [],
+		"CargoReadyDate": "2022-11-17T00:00:00Z",
+		"CargoReadyLocation": "SUZHOU",
+		"Description": "BUTTON & Display Holder & FACEPLATE",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"IncoTermNamedPlace": "suzhou",
+		"PaymentTermCode": "__60",
+		"PaymentTermName": "within 60 days Due net",
+		"MarksAndNumbers": "FAT-Har220067(BRA)",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "80-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753409",
+						"Description": "DISPLAY HOLDER                      T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 1.74
+						},
+						"Weight": {
+							"Amount": 150.0
+						},
+						"Outer": 1,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "90-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753492",
+						"Description": "FACEPLATE                     T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 3.49
+						},
+						"Weight": {
+							"Amount": 152.2
+						},
+						"Outer": 2,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "100-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753506",
+						"Description": "BUTTON HOME POWER    T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 1.74
+						},
+						"Weight": {
+							"Amount": 150.0
+						},
+						"Outer": 1,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "120-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753522",
+						"Description": "BUTTON VOL DECREASE                 T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 1.74
+						},
+						"Weight": {
+							"Amount": 150.0
+						},
+						"Outer": 1,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "110-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753514",
+						"Description": "BUTTON VOL INCREASE                 T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 1.74
+						},
+						"Weight": {
+							"Amount": 150.0
+						},
+						"Outer": 1,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994223HMP",
+				"Identifier": "70-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3753379",
+						"Description": "BUTTON PROJECTION                   T077",
+						"Quantity": 3456.0,
+						"Volume": {
+							"Amount": 1.74
+						},
+						"Weight": {
+							"Amount": 150.0
+						},
+						"Outer": 1,
+						"PackedLength": {
+							"Amount": 122.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 143.0
+						},
+						"IntoDcDate": "2023-02-03T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "0530",
+							"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Name": "Harman Automotive da Amazonia (0530) c/o Arvato Singapore",
+								"Street": "Changi South Street 3, Level 08-0",
+								"Street2": "SINGAPORE-CHANGI 486361",
+								"City": "",
+								"CountryCode": "SG",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-03T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-03T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-11T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-11T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 122.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 143.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 7.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 902.2,
+			"Unit": "X12_KG"
+		},
+		"TotalVolume": {
+			"Amount": 12.2122,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

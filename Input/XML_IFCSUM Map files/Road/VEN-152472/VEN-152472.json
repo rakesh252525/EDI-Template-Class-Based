@@ -1,0 +1,308 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-152472",
+		"BookingCreated": "2022-12-08T09:08:36.5438391Z",
+		"BookingSubmitted": "2022-12-08T09:13:24.31437Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "438887",
+			"Name": "WILD TECHNOLOGIES S.R.O (438887)",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "WILD TECHNOLOGIES S.R.O (438887)",
+				"Street": "Coburgova 84/7607,Trnava",
+				"City": "Trnava",
+				"PostalCode": "917 48",
+				"CountryCode": "SK",
+				"UnLocode": "SKTNA",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ShipperPhone": "",
+		"ShipperEmail": "",
+		"ShipperContact": "",
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "DSVF",
+			"Name": "DSV Global Transport & Logistics",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "438887",
+			"Name": "WILD TECHNOLOGIES S.R.O (438887)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": "Coburgova 84/7607",
+				"City": "TRNAVA",
+				"PostalCode": "91748",
+				"CountryCode": "SK",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "WILD TECHNOLOGIES S.R.O (438887)",
+		"FactoryAddress": "Coburgova 84/7607, TRNAVA",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "7301",
+			"Name": "Denmark Distribution Center (7301)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Denmark Distribution Center (7301)",
+				"Street": "Nokiavej 30,Horsens",
+				"City": "Horsens",
+				"PostalCode": "8700",
+				"CountryCode": "DK",
+				"UnLocode": "DKHOR",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"NotifyPartyName": "DSV Solutions",
+		"NotifyPartyAddress": "Nokiavej 30t",
+		"ModeOfTransport": "Road",
+		"LaneId": "LTL-SKTNA-DKHOR-001",
+		"PolCode": "SKTNA",
+		"PolName": "Trnava",
+		"PodCode": "DKHOR",
+		"PodName": "Horsens",
+		"LoadType": "LTL",
+		"VendorBookingEquipments": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core",
+				"Id": -1,
+				"ContainerTypeCode": "3.5T",
+				"ContainerTypeName": "3.5 ton",
+				"Count": 1
+			}
+		],
+		"CargoReadyDate": "2022-12-09T00:00:00Z",
+		"CargoReadyLocation": "Trnava",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"IncoTermNamedPlace": "Trnava, Slovakia",
+		"PaymentTermCode": "__30",
+		"PaymentTermName": "Within 30 days Due net",
+		"MarksAndNumbers": "Q400, K 15, K812, K872",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500994290PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3458X00050",
+						"Description": "K872 PRO HEADPHONES",
+						"Quantity": 22.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 0.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-12-12T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-12T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-12T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-05T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-05T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500924122PEP",
+				"Identifier": "40-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3458X00010",
+						"Description": "K812 PRO HEADPHONES",
+						"Quantity": 24.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 133.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2022-11-21T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-11-21T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-11-21T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-14T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-14T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501005052PEP",
+				"Identifier": "10-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "3446H00010",
+						"Description": "K15 HEADPHONES",
+						"Quantity": 100.0,
+						"Volume": {
+							"Amount": 0.0
+						},
+						"Weight": {
+							"Amount": 17.0
+						},
+						"PackedLength": {
+							"Amount": 0.0
+						},
+						"PackedWidth": {
+							"Amount": 0.0
+						},
+						"PackedHeight": {
+							"Amount": 0.0
+						},
+						"IntoDcDate": "2023-02-13T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7301",
+							"Name": "Denmark Distribution Center (7301)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "Nokiavej 30",
+								"City": "Horsens",
+								"PostalCode": "8700",
+								"CountryCode": "DK",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-02-13T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-02-13T00:00:00+00:00",
+				"ExFactoryDate": "2023-02-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2023-02-06T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 120.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 80.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 150.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 4.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 300.0,
+			"Unit": "X12_KG"
+		},
+		"TotalVolume": {
+			"Amount": 5.76,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

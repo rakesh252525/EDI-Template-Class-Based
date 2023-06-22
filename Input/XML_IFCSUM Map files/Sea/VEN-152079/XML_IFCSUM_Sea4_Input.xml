@@ -1,0 +1,926 @@
+<root1>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-152079</BookingReference>
+		<BookingCreated>2022-12-06T01:32:09.3883839Z</BookingCreated>
+		<BookingSubmitted>2022-12-06T01:46:34.5830035Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>414122</Code>
+			<Name>ALLIED ADVANTAGE SDN BHD (414122)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>ALLIED ADVANTAGE SDN BHD (414122)</Name>
+				<Street>JALAN PKNK 3/1,SUNGAI PETANI</Street>
+				<City>SUNGAI PETANI</City>
+				<PostalCode>8000</PostalCode>
+				<CountryCode>MY</CountryCode>
+				<UnLocode>MYPET</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>CCLL</Code>
+			<Name>Geodis</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>414122</Code>
+			<Name>ALLIED ADVANTAGE SDN BHD (414122)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>JALAN PKNK 3/1</Street>
+				<City>SUNGAI PETANI</City>
+				<PostalCode>8000</PostalCode>
+				<CountryCode>MY</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>ALLIED ADVANTAGE SDN BHD (414122)</FactoryName>
+		<FactoryAddress>JALAN PKNK 3/1, SUNGAI PETANI</FactoryAddress>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>0726</Code>
+			<Name>Harman(China) Tech Dandong (0726)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Harman(China) Tech Dandong (0726)</Name>
+				<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District,Dan Dong</Street>
+				<City>Dan Dong</City>
+				<PostalCode>118009</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNDDZ</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<NotifyPartyName>Same as consignee</NotifyPartyName>
+		<NotifyPartyAddress/>
+		<NotifyPartyPhone/>
+		<NotifyPartyEmail/>
+		<NotifyPartyContact/>
+		<ModeOfTransport>Sea</ModeOfTransport>
+		<LaneId>FCL-MYPEN-CNQIN-FCA-23-1-01</LaneId>
+		<PolCode>MYPEN</PolCode>
+		<PolName>Penang</PolName>
+		<PodCode>CNTAO</PodCode>
+		<PodName>Qingdao</PodName>
+		<LoadType>CYCY</LoadType>
+		<VendorBookingEquipments>
+			<type>Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core</type>
+			<Id>-1</Id>
+			<ContainerTypeCode>20GP</ContainerTypeCode>
+			<ContainerTypeName>20GP</ContainerTypeName>
+			<Count>1</Count>
+		</VendorBookingEquipments>
+		<CargoReadyDate>2022-12-23T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>SUNGAI PETANI</CargoReadyLocation>
+		<IncoTermCode>FCA</IncoTermCode>
+		<IncoTermName>Free Carrier (named place)</IncoTermName>
+		<IncoTermNamedPlace>MALAYSIA</IncoTermNamedPlace>
+		<PaymentTermCode>__60</PaymentTermCode>
+		<PaymentTermName>within 60 days Due net</PaymentTermName>
+		<MarksAndNumbers>HARMAN DANDONG MADE IN MALAYSIA</MarksAndNumbers>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500118694HMP</OrderNumber>
+			<Identifier>10-20220727</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1609005701A</ItemCode>
+				<Description>SHELL POT H33.5 D28.5 STAKE STEEL</Description>
+				<Quantity>654.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>18</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-07-27T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-07-27T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-07-27T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-06-08T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-06-08T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500118694HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1609005701A</ItemCode>
+				<Description>SHELL POT H33.5 D28.5 STAKE STEEL</Description>
+				<Quantity>162.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>5</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500139276HMP</OrderNumber>
+			<Identifier>10-20230201</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1809003502A</ItemCode>
+				<Description>POLE PLATE PD37.85 OD80MM H22</Description>
+				<Quantity>6485.0</Quantity>
+				<Volume>
+					<Amount>1.45</Amount>
+				</Volume>
+				<Weight>
+					<Amount>2501.0</Amount>
+				</Weight>
+				<Outer>216</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>28.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>20.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>12.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-01T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-01T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-01T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-23T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-23T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500139276HMP</OrderNumber>
+			<Identifier>10-20221214</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1809003502A</ItemCode>
+				<Description>POLE PLATE PD37.85 OD80MM H22</Description>
+				<Quantity>973.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>2501.0</Amount>
+				</Weight>
+				<Outer>33</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>28.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>20.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>12.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-14T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-14T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-14T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-04T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-04T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500140516HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1609008601A</ItemCode>
+				<Description>SHELL POT PD35.2 H38 D4 STAKE STEEL</Description>
+				<Quantity>500.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>9</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500978473HMP</OrderNumber>
+			<Identifier>50-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1807003401A</ItemCode>
+				<Description>POLE PLATE PD25.17 OD80 H32 BUMP</Description>
+				<Quantity>273.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>8</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-07-06T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-07-06T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-07-06T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-06-16T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-06-16T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500139275HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1807001702A</ItemCode>
+				<Description>POLE PLATE PD25.375 OD92MM H23</Description>
+				<Quantity>2875.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>48</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500132117HMP</OrderNumber>
+			<Identifier>10-20221207</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1507008901A</ItemCode>
+				<Description>FRONT PLATE ID28 OD80 T6 STAKE</Description>
+				<Quantity>1042.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>11</Outer>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-07T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-07T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-07T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-19T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-19T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500118693HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1509004201A</ItemCode>
+				<Description>FRONT PLATE ID44.1 OD92 T8 STAKE ST</Description>
+				<Quantity>2310.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>35</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500147363HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1507009601A</ItemCode>
+				<Description>FRONT PLATE ID30.4 OD66MM T5 STAKE</Description>
+				<Quantity>9900.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>0.0</Amount>
+				</Weight>
+				<Outer>50</Outer>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500139273HMP</OrderNumber>
+			<Identifier>10-20221130</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1507002903A</ItemCode>
+				<Description>FRONT PLATE ID29.55 OD92MM T7 STAKE</Description>
+				<Quantity>2875.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>1124.0</Amount>
+				</Weight>
+				<Outer>37</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-11-30T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-11-30T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-11-30T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-10-12T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-10-12T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4501004512HMP</OrderNumber>
+			<Identifier>10-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1307002402A</ItemCode>
+				<Description>CORE CAP OD25.375 T2.3</Description>
+				<Quantity>15000.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>315.0</Amount>
+				</Weight>
+				<Outer>7</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-02T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-02T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-02T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2023-01-13T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2023-01-13T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4501004512HMP</OrderNumber>
+			<Identifier>20-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1307002402A</ItemCode>
+				<Description>CORE CAP OD25.375 T2.3</Description>
+				<Quantity>15000.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>315.0</Amount>
+				</Weight>
+				<Outer>8</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-09T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-09T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-09T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2023-01-20T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2023-01-20T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>5500139274HMP</OrderNumber>
+			<Identifier>10-20230201</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>1509002802A</ItemCode>
+				<Description>FRONT PLATE ID40.92 OD80MM T8 STAKE</Description>
+				<Quantity>2086.0</Quantity>
+				<Volume>
+					<Amount>0.0</Amount>
+				</Volume>
+				<Weight>
+					<Amount>882.0</Amount>
+				</Weight>
+				<Outer>35</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>0.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>0.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>0.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-01T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0726</Code>
+					<Name>Harman(China) Tech Dandong (0726)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>No.68, Yinquan one Street, No.9 Baoquan Road, Zhenxing District</Street>
+						<City>Dandong</City>
+						<PostalCode>118009</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-01T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-01T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-14T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-14T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>60.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>43.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>54.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>112.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>129.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>4.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>90.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>67.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>2.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>7167.0</Amount>
+			<Unit>X12_KG</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>8.271</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>P2P</MovementType>
+	</element>
+</root1>

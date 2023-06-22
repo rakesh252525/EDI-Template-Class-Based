@@ -1,0 +1,280 @@
+<root>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-66877</BookingReference>
+		<BookingCreated>2021-06-09T03:16:38.4713758Z</BookingCreated>
+		<BookingSubmitted>2021-06-09T03:35:24.5819457Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>436015</Code>
+			<Name>Tymphany Hk Limited (436015)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Tymphany Hk Limited (436015)</Name>
+				<Street>Tymphany Ind Area Xin Lian Village, Huizhou</Street>
+				<City>Huizhou</City>
+				<PostalCode>516223</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNHUI</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ShipperEmail>shirmere.xie@tymphany.com</ShipperEmail>
+		<ShipperContact>Shirmere</ShipperContact>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>DSV</Code>
+			<Name>DSV Global Transport &amp; Logistics</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>DSV Global Transport &amp; Logistics</Name>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>436015</Code>
+			<Name>TYMPHANY HK LIMITED (436015)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>TYMPHANY HK LIMITED (436015)</Name>
+				<Street>ROOM 1307-8,DOMIMION CENTRE , 43-59 ,QUEEN'S ROAD EAST</Street>
+				<City>WANCHAI</City>
+				<CountryCode>HK</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>TYMPHANY HK LIMITED (436015)</FactoryName>
+		<FactoryAddress>ROOM 1307-8,DOMIMION CENTRE , 43-59 ,QUEEN'S ROAD EAST, WANCHAI</FactoryAddress>
+		<FactoryEmail>shirmere.xie@tymphany.com</FactoryEmail>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>7301</Code>
+			<Name>Denmark Distribution Center (7301)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Denmark Distribution Center (7301)</Name>
+				<Street>Nokiavej 30</Street>
+				<City>Horsens</City>
+				<PostalCode>8700</PostalCode>
+				<CountryCode>DK</CountryCode>
+				<UnLocode>DKHOR</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<ConsigneeEmail>Jet.Zhao@harman.com</ConsigneeEmail>
+		<ConsigneeContact>Jet</ConsigneeContact>
+		<NotifyPartyName>Same as Consignee</NotifyPartyName>
+		<ModeOfTransport>Rail</ModeOfTransport>
+		<LaneId>SQ2950</LaneId>
+		<PolCode>CNCQI</PolCode>
+		<PolName>Chongqing</PolName>
+		<PodCode>DKHOR</PodCode>
+		<PodName>Horsens</PodName>
+		<LoadType>RAIL</LoadType>
+		<CargoReadyDate>2021-06-22T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>HUIZHOU.GUANGDONG</CargoReadyLocation>
+		<Description>SPEAKER BOX( NO BATTERIES)</Description>
+		<IncoTermCode>EXW</IncoTermCode>
+		<IncoTermName>Ex Works (named place)</IncoTermName>
+		<PaymentTermCode>__60</PaymentTermCode>
+		<PaymentTermName>within 60 days Due net</PaymentTermName>
+		<MarksAndNumbers>1，JBL- JBL-PRX ONE-EK /  CBT 1000-WH REF.# 32444  DK-4 2，CFS/CFS</MarksAndNumbers>
+		<BookingRemarks>huizhou</BookingRemarks>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500926529PEP</OrderNumber>
+			<Identifier>10-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>JBL-PRX ONE-EK</ItemCode>
+				<Description>JBL PRX ONE-EK</Description>
+				<Quantity>50.0</Quantity>
+				<Volume>
+					<Amount>15.79</Amount>
+				</Volume>
+				<Weight>
+					<Amount>1709.9</Amount>
+				</Weight>
+				<Outer>50</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>66.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>55.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>87.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-01-24T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7301</Code>
+					<Name>Denmark Distribution Center (7301)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Denmark Distribution Center (7301)</Name>
+						<Street>Nokiavej 30</Street>
+						<City>Horsens</City>
+						<PostalCode>8700</PostalCode>
+						<CountryCode>DK</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2021-07-08T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-01-24T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2021-05-13T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2021-11-29T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500922759PEP</OrderNumber>
+			<Identifier>10-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>CBT 1000-WH</ItemCode>
+				<Description>S/M, CBT 1000-WH</Description>
+				<Quantity>10.0</Quantity>
+				<Volume>
+					<Amount>2.56</Amount>
+				</Volume>
+				<Weight>
+					<Amount>408.1</Amount>
+				</Weight>
+				<Outer>10</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>128.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>50.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>40.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2021-08-05T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7301</Code>
+					<Name>Denmark Distribution Center (7301)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Denmark Distribution Center (7301)</Name>
+						<Street>Nokiavej 30</Street>
+						<City>Horsens</City>
+						<PostalCode>8700</PostalCode>
+						<CountryCode>DK</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2021-06-04T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2021-08-05T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2021-04-09T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2021-06-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>115.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>70.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>187.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>12.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>115.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>70.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>110.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>132.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>207.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>1.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>2118.0</Amount>
+			<Unit>Unknown</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>21.6821</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>D2D</MovementType>
+	</element>
+</root>

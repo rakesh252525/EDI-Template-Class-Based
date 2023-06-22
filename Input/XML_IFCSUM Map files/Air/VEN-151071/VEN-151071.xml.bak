@@ -1,0 +1,973 @@
+<root>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-151071</BookingReference>
+		<BookingCreated>2022-11-25T09:59:10.5262565Z</BookingCreated>
+		<BookingSubmitted>2022-11-25T10:13:59.3994989Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<$type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>444813</Code>
+			<Name>Venture International Pte Ltd (444813)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Venture International Pte Ltd (444813)</Name>
+				<Street>Plo 1 (Zone 4.), Jalan Firma 1, Kawasan Perindustrian Tebrau 1, Johor,NULL,Johor Bahru</Street>
+				<Street2>NULL</Street2>
+				<City>Johor Bahru</City>
+				<PostalCode>81100</PostalCode>
+				<CountryCode>MY</CountryCode>
+				<UnLocode>MYJHB</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>CCLL</Code>
+			<Name>Geodis</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>444813</Code>
+			<Name>Venture International Pte Ltd (444813)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Street>5006 Ang Mo Kio Avenue 5</Street>
+				<City>SINGAPORE</City>
+				<PostalCode>569873</PostalCode>
+				<CountryCode>SG</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<FactoryName>Venture International Pte Ltd (444813)</FactoryName>
+		<FactoryAddress>5006 Ang Mo Kio Avenue 5, SINGAPORE</FactoryAddress>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>7303</Code>
+			<Name>Harman Professional INC. APLL Yantian Warehouse</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Harman Professional INC. APLL Yantian Warehouse</Name>
+				<Street>3rd floor, Building C3, Modern logistics center Phase II, Road 1, North Zone of Yantian Integrated Bonded Area,Shenzhen</Street>
+				<Street2>Shenzhen</Street2>
+				<City>Shenzhen</City>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNSNZ</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<NotifyPartyName/>
+		<NotifyPartyAddress/>
+		<NotifyPartyContact/>
+		<ModeOfTransport>Air</ModeOfTransport>
+		<LaneId>HWA-MYJHB-CNSNZ-EXW-E-23-1-02</LaneId>
+		<PolCode>MYKUL</PolCode>
+		<PolName>Kuala Lumpur</PolName>
+		<PodCode>CNSNZ</PodCode>
+		<PodName>Shenzhen</PodName>
+		<LoadType>AIR</LoadType>
+		<CargoReadyDate>2022-11-30T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>JOHOR BAHRU</CargoReadyLocation>
+		<IncoTermCode>EXW</IncoTermCode>
+		<IncoTermName>Ex Works (named place)</IncoTermName>
+		<IncoTermNamedPlace>Malaysia</IncoTermNamedPlace>
+		<PaymentTermCode>__90</PaymentTermCode>
+		<PaymentTermName>within 90 days Due net</PaymentTermName>
+		<MarksAndNumbers>Seller invoice TBA</MarksAndNumbers>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500947116PEP</OrderNumber>
+			<Identifier>170-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-WHT-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,WHT,US,MLY</Description>
+				<Quantity>15.0</Quantity>
+				<Volume>
+					<Amount>0.15</Amount>
+				</Volume>
+				<Weight>
+					<Amount>12.92</Amount>
+				</Weight>
+				<Outer>2</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500947116PEP</OrderNumber>
+			<Identifier>130-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC4BV-BLK-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,EC4BV,BLK,EU,MLY</Description>
+				<Quantity>5.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-07-25T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-07-25T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-07-25T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-07-04T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-07-04T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500962675PEP</OrderNumber>
+			<Identifier>210-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,BLK,US,MLY</Description>
+				<Quantity>9.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500959035PEP</OrderNumber>
+			<Identifier>90-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-WHT-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,WHT,US,MLY</Description>
+				<Quantity>25.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500965418PEP</OrderNumber>
+			<Identifier>240-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-BLK-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,BLK,EU,MLY</Description>
+				<Quantity>35.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500959035PEP</OrderNumber>
+			<Identifier>110-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-BLK-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,BLK,EU,MLY</Description>
+				<Quantity>15.0</Quantity>
+				<Volume>
+					<Amount>0.15</Amount>
+				</Volume>
+				<Weight>
+					<Amount>12.92</Amount>
+				</Weight>
+				<Outer>2</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500966361PEP</OrderNumber>
+			<Identifier>110-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-WHT-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,WHT,EU,MLY</Description>
+				<Quantity>36.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500947116PEP</OrderNumber>
+			<Identifier>160-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,BLK,US,MLY</Description>
+				<Quantity>10.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500965418PEP</OrderNumber>
+			<Identifier>190-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC4BV-WHT-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC4BV,WHT,US,MLY</Description>
+				<Quantity>34.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500958284PEP</OrderNumber>
+			<Identifier>60-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-WHT-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,WHT,US,MLY</Description>
+				<Quantity>5.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500954546PEP</OrderNumber>
+			<Identifier>110-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,BLK,US,MLY</Description>
+				<Quantity>15.0</Quantity>
+				<Volume>
+					<Amount>0.15</Amount>
+				</Volume>
+				<Weight>
+					<Amount>12.92</Amount>
+				</Weight>
+				<Outer>2</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500949405PEP</OrderNumber>
+			<Identifier>290-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-BLK-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,BLK,EU,MLY</Description>
+				<Quantity>35.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500944782PEP</OrderNumber>
+			<Identifier>20-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,BLK,US,MLY</Description>
+				<Quantity>12.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500958283PEP</OrderNumber>
+			<Identifier>70-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC4BV-BLK-M-EU</ItemCode>
+				<Description>BSS,CONTRIO WC,EC4BV,BLK,EU,MLY</Description>
+				<Quantity>80.0</Quantity>
+				<Volume>
+					<Amount>0.51</Amount>
+				</Volume>
+				<Weight>
+					<Amount>45.22</Amount>
+				</Weight>
+				<Outer>7</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500949405PEP</OrderNumber>
+			<Identifier>250-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSEC8BV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,EC8BV,BLK,US,MLY</Description>
+				<Quantity>7.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500960129PEP</OrderNumber>
+			<Identifier>220-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-BLK-M</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,BLK,US,MLY</Description>
+				<Quantity>3.0</Quantity>
+				<Volume>
+					<Amount>0.07</Amount>
+				</Volume>
+				<Weight>
+					<Amount>6.46</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500949405PEP</OrderNumber>
+			<Identifier>300-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>BSSECV-WHT-M</ItemCode>
+				<Description>BSS,CONTRIO WC,ECV,WHT,US,MLY</Description>
+				<Quantity>29.0</Quantity>
+				<Volume>
+					<Amount>0.22</Amount>
+				</Volume>
+				<Weight>
+					<Amount>19.38</Amount>
+				</Weight>
+				<Outer>3</Outer>
+				<PackType>Carton</PackType>
+				<PackedLength>
+					<Amount>58.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>39.6</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>32.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2022-12-31T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>7303</Code>
+					<Name>Yantian Distribution Center (7303)</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Street>Road No. 1</Street>
+						<City>Shenzhen</City>
+						<PostalCode>518999</PostalCode>
+						<CountryCode>CN</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2022-12-31T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2022-12-31T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-12-10T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-12-10T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>105.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>127.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>140.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>2.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>260.68</Amount>
+			<Unit>X12_KG</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>3.7338</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>D2D</MovementType>
+	</element>
+</root>

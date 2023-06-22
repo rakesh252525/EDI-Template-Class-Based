@@ -1,0 +1,479 @@
+[
+	{
+		"Id": -1,
+		"BookingReference": "VEN-152212",
+		"BookingCreated": "2022-12-06T22:03:15.557862Z",
+		"BookingSubmitted": "2022-12-06T22:14:35.6726831Z",
+		"CustomerNode": {
+			"Id": -1,
+			"Code": "BNS_HARMAN",
+			"Name": "Harman",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Customer"
+		},
+		"ShipperNode": {
+			"Id": -1,
+			"Code": "439211",
+			"Name": "Industrias Adak, S.A.De.C.V (439211)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Industrias Adak, S.A.De.C.V (439211)",
+				"Street": "HIERRO 620, SANTA CRUZ",
+				"City": "GUADALUPE, NUEVO LEON",
+				"PostalCode": "67205",
+				"CountryCode": "MX",
+				"UnLocode": "MXMTY",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			}
+		},
+		"ShipperPhone": "8120296631",
+		"ShipperEmail": "ventas1@industriasadak.com",
+		"ShipperContact": "DANIEL LOPEZ",
+		"ForwarderNode": {
+			"Id": -1,
+			"Code": "CUOT",
+			"Name": "CEVA Logistics",
+			"Description": "",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": ".",
+				"Street2": "",
+				"City": "",
+				"PostalCode": "",
+				"CountryCode": "CN",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Forwarder"
+		},
+		"FactoryNode": {
+			"Id": -1,
+			"Code": "439211",
+			"Name": "INDUSTRIAS ADAK, S.A.DE.C.V (439211)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Street": "Calle Hierro #620, Balcones de Santa Cruz",
+				"City": "Guadalupe, NL",
+				"PostalCode": "67196",
+				"CountryCode": "MX",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Factory"
+		},
+		"FactoryName": "INDUSTRIAS ADAK, S.A.DE.C.V (439211)",
+		"FactoryAddress": "HIERRO 620, SANTA CRUZ",
+		"FactoryPhone": "8120296631",
+		"FactoryEmail": "ventas1@industriasadak.com",
+		"FactoryContact": "DANIEL LOPEZ",
+		"ConsigneeNode": {
+			"Id": -1,
+			"Code": "0012",
+			"Name": "Harman Becker Automotive Syste (0012)",
+			"Address": {
+				"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+				"Id": -1,
+				"Name": "Harman Becker Automotive Syste (0012)",
+				"Street": "SOR JUANA INES DE LA CRUZ #20043, CIUDAD INDUSTRIAL TIJUANA",
+				"City": "TIJUANA, BAJA CALIFORNIA",
+				"PostalCode": "22444",
+				"CountryCode": "MX",
+				"UnLocode": "MXTIJ",
+				"GooglePlusCodes": [],
+				"TimeZoneCode": "UTC"
+			},
+			"BnsNodeType": "Consignee"
+		},
+		"ConsigneePhone": "6642639694",
+		"ConsigneeEmail": "alma.sanchez@harman.com",
+		"ConsigneeContact": "ALMA SANCHEZ",
+		"NotifyPartyName": "",
+		"NotifyPartyAddress": "SOR JUANA INES DE LA CRUZ # 20043",
+		"NotifyPartyPhone": "+526642639694",
+		"NotifyPartyEmail": "ALMA.SANCHEZ@INDUSTRIASADAK.COM",
+		"NotifyPartyContact": "ALMA SANCHEZ",
+		"ModeOfTransport": "Road",
+		"LaneId": "TL-MXGLP-MXTIJ-001",
+		"PolCode": "MXGLP",
+		"PolName": "Guadalupe",
+		"PodCode": "MXTIJ",
+		"PodName": "Tijuana",
+		"LoadType": "FTL",
+		"VendorBookingEquipments": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingEquipment, Bns.Core",
+				"Id": -1,
+				"ContainerTypeCode": "DRYVAN",
+				"ContainerTypeName": "Dry Van",
+				"Count": 1
+			}
+		],
+		"CargoReadyDate": "2022-12-09T00:00:00Z",
+		"CargoReadyLocation": "INDUSTRIAS ADAK S.A. DE C.V.",
+		"IncoTermCode": "EXW",
+		"IncoTermName": "Ex Works (named place)",
+		"IncoTermNamedPlace": "MONTERREY",
+		"PaymentTermCode": "__60",
+		"PaymentTermName": "within 60 days Due net",
+		"MarksAndNumbers": "PACKING LIST # 133",
+		"DangerousGoodsRemarks": "",
+		"LetterOfCreditRemarks": "",
+		"LicenseRemarks": "",
+		"InsuranceArrangedRemarks": "",
+		"VendorBookingOrders": [
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500995871PEP",
+				"Identifier": "30-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "5040265",
+						"Description": "ADAPTER, 272X, 275X",
+						"Quantity": 1000.0,
+						"Volume": {
+							"Amount": 2.4
+						},
+						"Weight": {
+							"Amount": 900.0
+						},
+						"Outer": 2,
+						"PackType": "Pallet",
+						"PackedLength": {
+							"Amount": 100.0
+						},
+						"PackedWidth": {
+							"Amount": 120.0
+						},
+						"PackedHeight": {
+							"Amount": 100.0
+						},
+						"IntoDcDate": "2023-06-30T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-06-30T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-06-30T00:00:00+00:00",
+				"ExFactoryDate": "2023-06-23T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2023-06-23T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501005214PEP",
+				"Identifier": "30-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "72586-0099",
+						"Description": "FRM 12.220OD 7.010ID3.050C/SPD DIST 6STK",
+						"Quantity": 360.0,
+						"Volume": {
+							"Amount": 1.2
+						},
+						"Weight": {
+							"Amount": 800.0
+						},
+						"Outer": 1,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 100.0
+						},
+						"PackedWidth": {
+							"Amount": 120.0
+						},
+						"PackedHeight": {
+							"Amount": 100.0
+						},
+						"IntoDcDate": "2023-01-13T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-13T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-13T00:00:00+00:00",
+				"ExFactoryDate": "2023-01-06T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2023-01-06T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4501005622PEP",
+				"Identifier": "50-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "72586-0099",
+						"Description": "FRM 12.220OD 7.010ID3.050C/SPD DIST 6STK",
+						"Quantity": 360.0,
+						"Volume": {
+							"Amount": 1.2
+						},
+						"Weight": {
+							"Amount": 800.0
+						},
+						"Outer": 1,
+						"PackType": "Carton",
+						"PackedLength": {
+							"Amount": 100.0
+						},
+						"PackedWidth": {
+							"Amount": 120.0
+						},
+						"PackedHeight": {
+							"Amount": 100.0
+						},
+						"IntoDcDate": "2023-01-27T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2023-01-27T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2023-01-27T00:00:00+00:00",
+				"ExFactoryDate": "2023-01-20T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2023-01-20T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500988273PEP",
+				"Identifier": "10-0002",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "338386-002",
+						"Description": "FRAME,18IN DIE CAST,2268,TUMBLE DEBURR",
+						"Quantity": 808.0,
+						"Volume": {
+							"Amount": 19.2
+						},
+						"Weight": {
+							"Amount": 1600.0
+						},
+						"Outer": 16,
+						"PackType": "Pallet",
+						"PackedLength": {
+							"Amount": 120.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 100.0
+						},
+						"IntoDcDate": "2022-12-26T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-26T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-26T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-19T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-19T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500987316PEP",
+				"Identifier": "100-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "338384-002",
+						"Description": "FRAME,12IN LF DIECAST,TUMBLE DEBURRED",
+						"Quantity": 12.0,
+						"Volume": {
+							"Amount": 6.48
+						},
+						"Weight": {
+							"Amount": 1500.0
+						},
+						"Outer": 6,
+						"PackType": "Pallet",
+						"PackedLength": {
+							"Amount": 120.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 90.0
+						},
+						"IntoDcDate": "2022-12-02T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-02T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-02T00:00:00+00:00",
+				"ExFactoryDate": "2022-11-25T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-11-25T00:00:00+00:00"
+			},
+			{
+				"$type": "Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core",
+				"Id": -1,
+				"OrderNumber": "4500988273PEP",
+				"Identifier": "30-0001",
+				"VendorBookingItems": [
+					{
+						"$type": "Bns.Core.Models.Domain.VendorBookingItem, Bns.Core",
+						"Id": -1,
+						"ItemCode": "338385-002",
+						"Description": "FRM,15IN DIECAST,2265 / 2266,TUMBLE DE",
+						"Quantity": 500.0,
+						"Volume": {
+							"Amount": 6.0
+						},
+						"Weight": {
+							"Amount": 400.0
+						},
+						"Outer": 5,
+						"PackType": "Pallet",
+						"PackedLength": {
+							"Amount": 120.0
+						},
+						"PackedWidth": {
+							"Amount": 100.0
+						},
+						"PackedHeight": {
+							"Amount": 100.0
+						},
+						"IntoDcDate": "2022-12-26T00:00:00Z",
+						"WarehouseNode": {
+							"Id": -1,
+							"Code": "7102",
+							"Name": "Mfg Pro, Tijuana, MX c/o Avanza Loop (7102)",
+							"Address": {
+								"$type": "Bns.Core.Models.Domain.Address, Bns.Core",
+								"Id": -1,
+								"Street": "1601 Landmark Road Suite 301",
+								"City": "San Diego, CA",
+								"PostalCode": "92154",
+								"CountryCode": "US",
+								"GooglePlusCodes": [],
+								"TimeZoneCode": "UTC"
+							}
+						}
+					}
+				],
+				"DeliveryDate": "2022-12-26T00:00:00+00:00",
+				"AuthorizedDeliveryDate": "2022-12-26T00:00:00+00:00",
+				"ExFactoryDate": "2022-12-19T00:00:00+00:00",
+				"AuthorizedCargoReadyDate": "2022-12-19T00:00:00+00:00"
+			}
+		],
+		"CargoMeasurements": [
+			{
+				"$type": "Bns.Core.Models.Domain.CargoMeasurements, Bns.Core",
+				"Id": -1,
+				"Length": {
+					"Amount": 100.0,
+					"Unit": "EU_CMT"
+				},
+				"Width": {
+					"Amount": 120.0,
+					"Unit": "EU_CMT"
+				},
+				"Height": {
+					"Amount": 140.0,
+					"Unit": "EU_CMT"
+				},
+				"Quantity": 26.0,
+				"PackType": "Pallet",
+				"NonStackable": true
+			}
+		],
+		"GrossWeight": {
+			"Amount": 15600.0,
+			"Unit": "X12_50"
+		},
+		"TotalVolume": {
+			"Amount": 43.68,
+			"Unit": "EU_MTQ"
+		},
+		"TotalVolumeType": "CargoMeasurement",
+		"MovementType": "D2D"
+	}
+]

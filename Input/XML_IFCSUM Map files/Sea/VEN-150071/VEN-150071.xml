@@ -1,0 +1,436 @@
+<root>
+	<element>
+		<Id>-1</Id>
+		<BookingReference>VEN-150071</BookingReference>
+		<BookingCreated>2022-11-16T05:31:16.359863Z</BookingCreated>
+		<BookingSubmitted>2022-11-16T05:37:41.9892807Z</BookingSubmitted>
+		<CustomerNode>
+			<Id>-1</Id>
+			<Code>BNS_HARMAN</Code>
+			<Name>Harman</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Customer</BnsNodeType>
+		</CustomerNode>
+		<ShipperNode>
+			<Id>-1</Id>
+			<Code>452850</Code>
+			<Name>FISCHER ADVANCED TECHNOLOGY (452850)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>FISCHER ADVANCED TECHNOLOGY (452850)</Name>
+				<Street>NO.79 HONGXI ROAD,SUZHOU</Street>
+				<City>SUZHOU</City>
+				<PostalCode>215151</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<UnLocode>CNSUZ</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+		</ShipperNode>
+		<ShipperPhone>86 512 67998228</ShipperPhone>
+		<ShipperEmail>kelly.yang@pearles.com</ShipperEmail>
+		<ShipperContact>Kelly Yang</ShipperContact>
+		<ForwarderNode>
+			<Id>-1</Id>
+			<Code>CCLL</Code>
+			<Name>Geodis</Name>
+			<Description/>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>Geodis</Name>
+				<Street>.</Street>
+				<Street2/>
+				<City/>
+				<PostalCode/>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Forwarder</BnsNodeType>
+		</ForwarderNode>
+		<FactoryNode>
+			<Id>-1</Id>
+			<Code>452850</Code>
+			<Name>FISCHER ADVANCED TECHNOLOGY (452850)</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name>FISCHER ADVANCED TECHNOLOGY (452850)</Name>
+				<Street>NO.79 HONGXI ROAD</Street>
+				<City>SUZHOU</City>
+				<PostalCode>215151</PostalCode>
+				<CountryCode>CN</CountryCode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Factory</BnsNodeType>
+		</FactoryNode>
+		<ConsigneeNode>
+			<Id>-1</Id>
+			<Code>0530</Code>
+			<Name> Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+			<Address>
+				<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+				<Id>-1</Id>
+				<Name> Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+				<Street>Address: 50 Alps Avenue, Freightmark Logistics, Level 2 #02-06</Street>
+				<City>Singapore</City>
+				<PostalCode>498782</PostalCode>
+				<CountryCode>SG</CountryCode>
+				<UnLocode>SGCHG</UnLocode>
+				<TimeZoneCode>UTC</TimeZoneCode>
+			</Address>
+			<BnsNodeType>Consignee</BnsNodeType>
+		</ConsigneeNode>
+		<ConsigneePhone>+65 8128 0114</ConsigneePhone>
+		<ConsigneeEmail>sd.harmansg@arvato-scs.com</ConsigneeEmail>
+		<ConsigneeContact>Arvato_Harman team</ConsigneeContact>
+		<ModeOfTransport>Sea</ModeOfTransport>
+		<LaneId>SPOT QUOTE SQ17619</LaneId>
+		<PolCode>CNSGH</PolCode>
+		<PolName>Shanghai</PolName>
+		<PodCode>SGSIN</PodCode>
+		<PodName>Singapore</PodName>
+		<LoadType>CFSCFS</LoadType>
+		<CargoReadyDate>2022-11-17T00:00:00Z</CargoReadyDate>
+		<CargoReadyLocation>SUZHOU</CargoReadyLocation>
+		<Description>BUTTON &amp; Display Holder &amp; FACEPLATE</Description>
+		<IncoTermCode>EXW</IncoTermCode>
+		<IncoTermName>Ex Works (named place)</IncoTermName>
+		<IncoTermNamedPlace>suzhou</IncoTermNamedPlace>
+		<PaymentTermCode>__60</PaymentTermCode>
+		<PaymentTermName>within 60 days Due net</PaymentTermName>
+		<MarksAndNumbers>FAT-Har220067(BRA)</MarksAndNumbers>
+		<DangerousGoodsRemarks/>
+		<LetterOfCreditRemarks/>
+		<LicenseRemarks/>
+		<InsuranceArrangedRemarks/>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>80-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753409</ItemCode>
+				<Description>DISPLAY HOLDER                      T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>1.74</Amount>
+				</Volume>
+				<Weight>
+					<Amount>150.0</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>90-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753492</ItemCode>
+				<Description>FACEPLATE                     T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>3.49</Amount>
+				</Volume>
+				<Weight>
+					<Amount>152.2</Amount>
+				</Weight>
+				<Outer>2</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>100-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753506</ItemCode>
+				<Description>BUTTON HOME POWER    T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>1.74</Amount>
+				</Volume>
+				<Weight>
+					<Amount>150.0</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>120-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753522</ItemCode>
+				<Description>BUTTON VOL DECREASE                 T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>1.74</Amount>
+				</Volume>
+				<Weight>
+					<Amount>150.0</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>110-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753514</ItemCode>
+				<Description>BUTTON VOL INCREASE                 T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>1.74</Amount>
+				</Volume>
+				<Weight>
+					<Amount>150.0</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<VendorBookingOrders>
+			<type>Bns.Core.Models.Domain.VendorBookingOrder, Bns.Core</type>
+			<Id>-1</Id>
+			<OrderNumber>4500994223HMP</OrderNumber>
+			<Identifier>70-0001</Identifier>
+			<VendorBookingItems>
+				<type>Bns.Core.Models.Domain.VendorBookingItem, Bns.Core</type>
+				<Id>-1</Id>
+				<ItemCode>3753379</ItemCode>
+				<Description>BUTTON PROJECTION                   T077</Description>
+				<Quantity>3456.0</Quantity>
+				<Volume>
+					<Amount>1.74</Amount>
+				</Volume>
+				<Weight>
+					<Amount>150.0</Amount>
+				</Weight>
+				<Outer>1</Outer>
+				<PackedLength>
+					<Amount>122.0</Amount>
+				</PackedLength>
+				<PackedWidth>
+					<Amount>100.0</Amount>
+				</PackedWidth>
+				<PackedHeight>
+					<Amount>143.0</Amount>
+				</PackedHeight>
+				<IntoDcDate>2023-02-03T00:00:00Z</IntoDcDate>
+				<WarehouseNode>
+					<Id>-1</Id>
+					<Code>0530</Code>
+					<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+					<Address>
+						<type>Bns.Core.Models.Domain.Address, Bns.Core</type>
+						<Id>-1</Id>
+						<Name>Harman Automotive da Amazonia (0530) c/o Arvato Singapore</Name>
+						<Street>Changi South Street 3, Level 08-0</Street>
+						<Street2>SINGAPORE-CHANGI 486361</Street2>
+						<City/>
+						<CountryCode>SG</CountryCode>
+						<TimeZoneCode>UTC</TimeZoneCode>
+					</Address>
+				</WarehouseNode>
+			</VendorBookingItems>
+			<DeliveryDate>2023-02-03T00:00:00+00:00</DeliveryDate>
+			<AuthorizedDeliveryDate>2023-02-03T00:00:00+00:00</AuthorizedDeliveryDate>
+			<ExFactoryDate>2022-11-11T00:00:00+00:00</ExFactoryDate>
+			<AuthorizedCargoReadyDate>2022-11-11T00:00:00+00:00</AuthorizedCargoReadyDate>
+		</VendorBookingOrders>
+		<CargoMeasurements>
+			<type>Bns.Core.Models.Domain.CargoMeasurements, Bns.Core</type>
+			<Id>-1</Id>
+			<Length>
+				<Amount>122.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Length>
+			<Width>
+				<Amount>100.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Width>
+			<Height>
+				<Amount>143.0</Amount>
+				<Unit>EU_CMT</Unit>
+			</Height>
+			<Quantity>7.0</Quantity>
+			<PackType>Pallet</PackType>
+			<NonStackable>true</NonStackable>
+		</CargoMeasurements>
+		<GrossWeight>
+			<Amount>902.2</Amount>
+			<Unit>X12_KG</Unit>
+		</GrossWeight>
+		<TotalVolume>
+			<Amount>12.2122</Amount>
+			<Unit>EU_MTQ</Unit>
+		</TotalVolume>
+		<TotalVolumeType>CargoMeasurement</TotalVolumeType>
+		<MovementType>D2D</MovementType>
+	</element>
+</root>
