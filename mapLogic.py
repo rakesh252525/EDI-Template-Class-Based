@@ -485,3 +485,6 @@ write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\
 
 print("Mapping Done !!!!!!!!!")
 print("ThankYou")
+
+
+#path To lib  :  pydifact in c:\users\rakro\appdata\local\programs\python\python311\lib\site-packages (0.1.6)
