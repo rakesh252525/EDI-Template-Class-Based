@@ -27,7 +27,7 @@ def split_string(string, chunk_length):
 
 
 # Example usage
-file_path = 'C:\\Users\\rakro\Desktop\\EDI Template Class Based\\Input\\XML_IFCSUM Map files\\Sea\\VEN-152079\\VEN-152079.json'  # Replace with the path to your JSON file
+file_path = 'C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Input\\XML_IFCSUM Map files\\Air\\VEN-151071\\VEN-151071.json'  # Replace with the path to your JSON file
 json_data = read_json_file(file_path)
 
 
@@ -178,18 +178,26 @@ if loadType in valid_load_types:
 # ediData.add_segment("MEA","VOL")
 mea1=MEA()
 mea1.measurement_attribute_code_01="WT"
+mea1.measured_attribute_code_02_01="AAD"
+mea1.measurement_unit_code_03_01="KGM"
+mea1.measurement_value_03_02=json_data[0]["GrossWeight"]["Amount"]
 ediData.add_segment(mea1)
+
 
 mea2=MEA()
 mea2.measurement_attribute_code_01="VOL"
+mea2.measured_attribute_code_02_01="AAW"
+mea2.measurement_unit_code_03_01="MTQ"
+mea2.measurement_value_03_02=json_data[0]["TotalVolume"]["Amount"]
 ediData.add_segment(mea2)
 
 
 for cargo in json_data[0]["CargoMeasurements"]:
-  dat22=pack_type_codeList[cargo["PackType"]]
   mea3=MEA()
   mea3.measurement_attribute_code_01="CT"
-  mea3.measurement_unit_code_03_01=dat22
+  if "PackType" in cargo:
+      dat22=pack_type_codeList[cargo["PackType"]]
+      mea3.measurement_unit_code_03_01=dat22
   mea3.measurement_value_03_02=str(int(cargo["Quantity"]))
   mea3.measured_attribute_code_02_01=""
   ediData.add_segment(mea3)
@@ -212,15 +220,15 @@ for cargo in json_data[0]["CargoMeasurements"]:
     eqn1.number_of_unit_01_01=str(int(cargo["Quantity"]))
     ediData.add_segment(eqn1)
 
+if len(json_data[0]["VendorBookingEquipments"])!=0 :
+    eqd1=EQD()
+    eqd1.equipment_type_code_qualifier_01="CN"
+    eqd1.equipment_size_and_type_description_03_04=json_data[0]["VendorBookingEquipments"][0]["ContainerTypeCode"]
+    ediData.add_segment(eqd1)
 
-eqd1=EQD()
-eqd1.equipment_type_code_qualifier_01="CN"
-eqd1.equipment_size_and_type_description_03_04=json_data[0]["VendorBookingEquipments"][0]["ContainerTypeCode"]
-ediData.add_segment(eqd1)
-
-eqn2=EQN()
-eqn2.number_of_unit_01_01=str(len(json_data[0]["VendorBookingEquipments"]))
-ediData.add_segment(eqn2)
+    eqn2=EQN()
+    eqn2.number_of_unit_01_01=str(len(json_data[0]["VendorBookingEquipments"]))
+    ediData.add_segment(eqn2)
 
 cni1=CNI()
 cni1.consolidation_item_number_01="1"
@@ -240,12 +248,18 @@ tod1.code_list_identification_code_03_02="106"
 tod1.code_list_responsible_agency_code_03_03="6"
 tod1.delivery_term_description_03_04=json_data[0]["IncoTermCode"]
 ediData.add_segment(tod1)
-
-loc1=LOC()
-loc1.location_function_code_qualifer_01="1"
-loc1.location_name_code_02_01=""
-loc1.location_name_02_04=json_data[0]["IncoTermNamedPlace"]
-ediData.add_segment(loc1)
+if 'IncoTermNamedPlace' in json_data[0]:
+    loc1=LOC()
+    loc1.location_function_code_qualifer_01="1"
+    loc1.location_name_code_02_01=""
+    loc1.location_name_02_04=json_data[0]["IncoTermNamedPlace"]
+    ediData.add_segment(loc1)
+elif 'BookingRemarks' in json_data[0]:
+    loc1=LOC()
+    loc1.location_function_code_qualifer_01="1"
+    loc1.location_name_code_02_01=""
+    loc1.location_name_02_04=json_data[0]["BookingRemarks"]
+    ediData.add_segment(loc1)
 
 
 # ediData.add_segment("RFF",["AHX",json_data[0]["LaneId"]])
@@ -337,7 +351,7 @@ gidCounter=0
 packTYpeCode=""
 for bookingOrder in json_data[0]["VendorBookingOrders"]:
     for bookingItem in bookingOrder["VendorBookingItems"]:
-        print(bookingItem["Description"])
+        # print(bookingItem["Description"])
         gidCounter=gidCounter+1
                 # GID Mapping
         gid1=GID()
@@ -469,25 +483,40 @@ for bookingOrder in json_data[0]["VendorBookingOrders"]:
             mea4.measurement_unit_code_03_01="KGM"
             mea4.measurement_value_03_02=str(bookingItem["Weight"]["Amount"])
             ediData.add_segment(mea4)
+        if str(bookingItem["Volume"]["Amount"])!="0.0":
+            mea4=MEA()
+            mea4.measurement_attribute_code_01="VOL"
+            mea4.measured_attribute_code_02_01="ABJ"
+            mea4.measurement_unit_code_03_01="MTQ"
+            mea4.measurement_value_03_02=str(bookingItem["Volume"]["Amount"])
+            ediData.add_segment(mea4)
+        #DIM mapping
+        if str(bookingItem["PackedLength"]["Amount"])!="0.0":
+            dim2=DIM()
+            dim2.dimension_qualifier_01="2"
+            dim2.measurement_unit_code_02_01="MTR"
+            dim2.length_dimension_02_02=bookingItem["PackedLength"]["Amount"]/100
+            dim2.width_dimension_02_03=bookingItem["PackedWidth"]["Amount"]/100
+            dim2.height_dimension_02_04=bookingItem["PackedHeight"]["Amount"]/100
+            ediData.add_segment(dim2)
         # RFF mapping
         rff2=RFF()
         rff2.reference_function_code_qualifier_01_01="ON"
         rff2.reference_identifier_01_02=bookingOrder["OrderNumber"]
         ediData.add_segment(rff2)
         #PCI Mapping
-        pci1=PCI()
-        pci1.shipping_marks_02_01=repr(json_data[0]["MarksAndNumbers"])[1:-1] # converting string data to raw string.
-        ediData.add_segment(pci1)
+        marksAndNumberList=split_string(repr(json_data[0]["MarksAndNumbers"])[1:-1],35)
+        for mark in marksAndNumberList:
+            pci1=PCI()
+            pci1.shipping_marks_02_01=repr(mark)[1:-1] # converting string data to raw string.
+            ediData.add_segment(pci1)
 
-
-
-print(repr(json_data[0]["MarksAndNumbers"]))
 
 # #----------------------------------------------------------------Mapping Logic End----------------------------------------------------------------  
 
 ediData = ediData.create_edi()
 # print(ediData)
-write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Output3EDI.edi")
+write_data_to_file(ediData,"C:\\Users\\rakro\\Desktop\\EDI Template Class Based\\Output12EDI.edi")
 
 
 print("Mapping Done !!!!!!!!!")
