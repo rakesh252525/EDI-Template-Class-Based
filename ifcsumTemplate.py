@@ -45,14 +45,33 @@ class EDIData:
 
 
 class BGM:
+    segment_counter = 0
+    max_occurrence = 1
     def __init__(self):
         self.document_name_code_01_01 = None
         self.document_number_02_01 = None
         self.message_function_code_03 = None
+        BGM.segment_counter += 1
+    
+    def is_valid(self):
+        if self.document_name_code_01_01 is None and self.is_mandatory('document_name_code_01_01'):
+            raise ValueError("Mandatory field 'document_name_code_01_01' is missing")
+        if self.document_number_02_01 is None and self.is_mandatory('document_number_02_01'):
+            raise ValueError("Mandatory field 'document_number_02_01' is missing")
+        if self.message_function_code_03 is None and self.is_mandatory('message_function_code_03'):
+            raise ValueError("Mandatory field 'message_function_code_03' is missing")
+        return True
+
+    def is_mandatory(self, element):
+        mandatory_elements = ['document_name_code_01_01', 'document_number_02_01', 'message_function_code_03']
+        return element in mandatory_elements
 
     def to_edifact(self):
-        edifact_data = f"BGM+{self.document_name_code_01_01}+{self.document_number_02_01}+{self.message_function_code_03}'"
-        return edifact_data
+        if self.is_valid():
+            edifact_data = f"BGM+{self.document_name_code_01_01}+{self.document_number_02_01}+{self.message_function_code_03}'"
+            return edifact_data
+        else:
+            return ""
 
 class DTM:
     def __init__(self):
